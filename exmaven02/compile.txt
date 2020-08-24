@@ -1,0 +1,15 @@
+https://mkyong.com/maven/maven-how-to-create-a-multi-module-project/
+
+
+# compile entity module only
+mvn -pl entity compile
+
+mvn -pl entity install
+
+# compile app module only
+mvn -pl app compile
+
+# compile app module, also dependency
+mvn -am -pl app compile
+
+mvn compile
